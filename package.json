@@ -1,0 +1,30 @@
+{
+  "name": "va",
+  "version": "0.0.1",
+  "description": "生成工程文件小工具",
+  "main": "./index.js",
+  "author": {
+    "name": "George <504784339@163.com>"
+  },
+  "dependencies": {
+    "argparse": "^1.0.7",
+    "inquirer": "6.2.1",
+    "name-styles": "^2.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/george-quzhi/va.git"
+  },
+  "bin": {
+    "va": "./va-cli.js"
+  },
+  "engines": {
+    "node": ">= 0.4.x"
+  },
+  "keywords": [
+    "va",
+    "cli"
+  ],
+  "license": "MIT"
+}
